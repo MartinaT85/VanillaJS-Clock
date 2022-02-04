@@ -1,0 +1,24 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: sans-serif;
+  background-color: #191919;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #171717, #1b1b1b);
+  box-shadow: 25px 25px 50px #121212, -25px -25px 50px #202020;
+}
